@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Fira Sans", serif;
+  background-image: url("https://img.freepik.com/premium-photo/smart-phone-with-digital-question-mark-holographic-abstract-technology-background-q-discussion-faq-support-question-answer-help-service-business-concept_505353-295.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.quiz-container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  /* background-image: url("https://www.quizwitz.com/assets/img/generated/blog/2023-01-25/quiz-800-9a2766d14.png"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: coral;
+  font-size: 2.4rem;
+
+} 
+h2 {
+  margin-bottom: 30px;
+  color: coral;
+
+  font-size: 1.6rem;
+
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  color: coral;
+
+}
+
+li {
+  color: white;
+
+  margin: 10px 0;
+}
+
+button {
+  padding: 12px 45px;
+  background: black;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: white;
+  color: black;
+}
+
+.hidden {
+  display: none;
+}
